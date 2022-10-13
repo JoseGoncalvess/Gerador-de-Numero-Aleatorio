@@ -6,5 +6,8 @@ button.addEventListener('click', function () {
 
   let result = Math.floor(Math.random() * (max - min + 1)) + min
 
+  if ((result = isNaN)) {
+    result = 'Valores Invalidos!'
+  }
   document.querySelector('.result > span').textContent = result
 })
