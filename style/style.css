@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Code+Pro:ital,wght@0,200;0,400;0,500;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: rgb(22, 22, 22);
+  color: rgb(255, 255, 255);
+}
+.grupo{
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  min-width: 470px;
+  background-color: transparent;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px 2px rgba(218, 196, 6, 0.516);
+}
+.grupo h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.input-grup{
+display: flex;
+padding: 20px 0px;
+gap: 50px;
+}
+.input-fiel{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(219, 202, 16);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+input:focus{
+  outline: none;
+}
+button#generator{
+  background:rgba(218, 196, 6, 0.516);
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.result{
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
